@@ -182,18 +182,14 @@ $('#submit').click(function(){
 		type: "POST",
 		url: $('.contactForm form').attr('action'),
 		data: data_string,
+        dataType: 'json',
 		
-		success: function(message) {
-				if(message == 'SENDING'){
-					$('#success').fadeIn('slow');
-				}
-				else{
-					$('#error').fadeIn('slow');
-				}
-					}
-					
-					
-					
+		success: function(result) {
+            $('#success').fadeIn('slow');
+		},
+        error: function(error) {
+            $('#error').fadeIn('slow');
+        }	
 	});
 
 	return false; 

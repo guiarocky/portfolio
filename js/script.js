@@ -8,17 +8,21 @@ jQuery(window).load(function() {
 });
 
 
-//--------------------------------- Initialize galleria --------------------------------//
-
-Galleria.loadTheme('js/galleria.classic.js');
-Galleria.run('.galleria');
 
 //--------------------------------- End initialize galleria ---------------------------//
 
 
 
 $(document).ready(function(){
-	
+
+//--------------------------------- Initialize galleria --------------------------------//
+
+function initGalleria() {
+    Galleria.run('.galleria');
+}
+
+Galleria.loadTheme('js/galleria.classic.js');
+initGalleria();
 	
 //------------------------------------- Navigation setup ------------------------------------------------//
 
@@ -87,7 +91,12 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 		$('.open-popup-lightbox').magnificPopup({
   		type:'inline',
   		midClick: true,
-  		closeBtnInside: true
+  		closeBtnInside: true,
+        callbacks: {
+            open: function() {
+                initGalleria();
+            }
+        }
 		});
 		
 
@@ -123,7 +132,12 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 		$('.open-popup-lightbox').magnificPopup({
   		type:'inline',
   		midClick: true,
-  		closeBtnInside: true
+  		closeBtnInside: true,
+        callbacks: {
+            open: function() {
+                initGalleria();
+            }
+        }
 		});
 		
 

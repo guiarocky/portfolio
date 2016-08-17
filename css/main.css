@@ -868,7 +868,7 @@ nav#mainNav  .active{
 }
 
 .emDesc h3, .edDesc h3{
-	font-size:16px;
+	font-size:20px;
 	color:#2d2d2d;
 	margin-bottom:3px;
 }
@@ -1279,17 +1279,26 @@ float:left;
 	font-size: 16px;
 	line-height:20px;
 
-	/*margin-bottom: 80px;*/
+} 
+
+.lightbox_text_left h1{
+	width:700px;
+	margin:0 auto;
 
 } 
 
+.lightbox_galleria {
+    height: 350px;
+    width: 60%;
+    margin: 0 auto;
+}
 
 
 /*.lightbox_text_float{
 	align:left;
 }*/
 
-.lightbox_text_float h1{
+/*.lightbox_text_float h1{
 	margin-left: 200px;
 	margin-bottom: 35px;
 	width:370px;
@@ -1300,16 +1309,64 @@ float:left;
 
 }
 
-.lightbox_text_float h2{
+/*.lightbox_text_float h2{
 	margin-left: 60px;
 	margin-bottom: 35px;
 	width:370px;
-	/*float:left;*/
+
 	font-size: 14px;
 	text-align: left;
-		/*margin:0 auto;*/
+
 
 }
+*/
+.wrapper {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+/*.box.left {
+  background-color: #2d2d2d;
+}
+
+.box.right {
+   background-color: #000000;
+}*/
+
+.box.left h1{
+  text-align: left;
+  width:70%;
+  font-size: 14px;
+}
+
+.box.right h2{
+  text-align: left;
+  width:70%;
+  font-size: 14px;
+}
+
+.box.left p{
+  text-align: center;
+  font-size: 18px;
+  width:100%;
+}
+
+.box.right p{
+  text-align: center;
+  font-size: 18px;
+  width:100%;
+}
+
 
 
 .lightbox_text p{
@@ -1538,7 +1595,7 @@ float:left;
 
 .pic7 img{
 	width:60%;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	margin-top: 30px;
 	margin-bottom: 10px;
 	align:center;
@@ -1546,7 +1603,7 @@ float:left;
 
 .pic8 img{
 	width:20%;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	margin-top: 30px;
 	margin-bottom: 40px;
 	align:center;
@@ -1554,7 +1611,7 @@ float:left;
 
 .pic9 img{
 	width:60%;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	/*margin-top: 30px;*/
 	margin-bottom: 10px;
 	align:center;
@@ -1573,6 +1630,14 @@ float:left;
 	/*margin-right: 10px;*/
 	/*margin-top: 3px;*/
 	margin-bottom: 10px;
+	align:center;
+}
+
+.pic12 img{
+	width:20%;
+	/*margin-right: 10px;*/
+	/*margin-top: 10px;*/
+	/*margin-bottom: 30px;*/
 	align:center;
 }
 
@@ -2128,7 +2193,6 @@ h1
 #toTop:active, #toTop:focus {
     outline: medium none;
 }
-
 
 
 

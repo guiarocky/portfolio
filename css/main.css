@@ -1288,10 +1288,13 @@ float:left;
 } 
 
 .lightbox_galleria {
-    height: 350px;
-    width: 60%;
+    height: 650px;
+    width: 80%;
     margin: 0 auto;
+
 }
+
+
 
 
 /*.lightbox_text_float{
@@ -1305,9 +1308,8 @@ float:left;
 	float:left;
 	font-size: 14px;
 	text-align: left;
-	/*margin:0 auto;*/
-
-}
+	margin:0 auto;
+}*/
 
 /*.lightbox_text_float h2{
 	margin-left: 60px;
@@ -1320,9 +1322,9 @@ float:left;
 
 }
 */
-.wrapper {
+.box-wrapper {
   width: 90%;
-  max-width: 600px;
+  max-width: 950px;
   margin: 0 auto;
 }
 

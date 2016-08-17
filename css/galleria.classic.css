@@ -5,7 +5,7 @@
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background: #000;
+    background: #fff;
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
@@ -140,7 +140,7 @@
     filter: alpha(opacity=30);
     cursor: pointer;
     width: 62px;
-    height: 124px;
+    height: 300px;
     position: absolute;
     left: 10px;
     z-index: 2;

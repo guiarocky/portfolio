@@ -8,6 +8,12 @@ jQuery(window).load(function() {
 });
 
 
+//--------------------------------- Initialize galleria --------------------------------//
+
+Galleria.loadTheme('js/galleria.classic.js');
+Galleria.run('.galleria');
+
+//--------------------------------- End initialize galleria ---------------------------//
 
 
 
@@ -69,7 +75,6 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 //---------------------------------- End  quote-----------------------------------------//
 
 
-
 //------------------------------ Sorting portfolio elements with quicksand plugin- ----------------------------//
 
 
@@ -123,7 +128,7 @@ $('.testimoniaContainer .testimonialContent .icoQuote').css({opacity:0.2});
 		
 
 //-------------------------- End einitilaizing magnificPopup ----------------------------//
-
+    
 		});
 
 

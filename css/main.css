@@ -1287,6 +1287,11 @@ float:left;
 
 } 
 
+.lightbox_galleria {
+    height: 350px;
+    width: 60%;
+    margin: 0 auto;
+}
 
 
 /*.lightbox_text_float{
@@ -2188,7 +2193,6 @@ h1
 #toTop:active, #toTop:focus {
     outline: medium none;
 }
-
 
 
 

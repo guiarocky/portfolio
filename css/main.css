@@ -263,10 +263,12 @@ nav#mainNav  .active{
     font-size: 40px;
     position: relative;
     text-transform: capitalize;
+    /*letter-spacing:1px;*/
+
 }
 
 
-.teaserTitle h1:before {
+/*.teaserTitle h1:before {
     border-top: 3px solid #FFFFFF;
     content: "";
     display: block;
@@ -276,10 +278,10 @@ nav#mainNav  .active{
     top: 31px;
     width: 68px;
     z-index: 0;
-}
+}*/
 
 
-.teaserTitle h1:after {
+/*.teaserTitle h1:after {
     border-top: 3px solid #FFFFFF;
     content: "";
     display: block;
@@ -289,12 +291,21 @@ nav#mainNav  .active{
     top: 31px;
     width: 68px;
     z-index: 0;
-}
+}*/
 
 .teaserTitle h2{
-	font-size:22px;
-	text-transform:uppercase;
-	letter-spacing:2px;
+	margin-top: 5px;
+	font-size:20px;
+	/*text-transform:uppercase;*/
+	letter-spacing:1px;
+	
+}
+
+.teaserTitle h3{
+	margin-top: 25px;
+	font-size:16px;
+	/*text-transform:uppercase;*/
+	letter-spacing:1px;
 	
 }
 
@@ -1050,7 +1061,7 @@ nav#mainNav  .active{
 
 
 #portfolio .secTitle{
-	background:#ffc5e2;
+	background:#9692e3;
 }
 
 .filterNav {

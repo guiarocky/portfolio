@@ -238,7 +238,7 @@ nav#mainNav  .active{
 
 
 #teaser{
-	color:#ffffff;
+	color:#2d2d2d;
 	background:url(../images/sliderImages/theme.jpg) ;
 	height:717px;
 	text-align:center; 	
@@ -258,7 +258,7 @@ nav#mainNav  .active{
 }
 
 .teaserTitle h1 {
-    color: #ffffff;
+    /*color: #ffffff;*/
     display: inline-block;
     font-size: 40px;
     position: relative;
@@ -488,7 +488,7 @@ nav#mainNav  .active{
 }
 
 #about .secTitle{
-	background:#6ac8c8;
+	background:#9ad8ce;
 }
 
 
@@ -856,7 +856,7 @@ nav#mainNav  .active{
 
 
 #resume .secTitle{
-	background:#92c14d;
+	background:#9ad8ce;
 }
 
 
@@ -1061,7 +1061,7 @@ nav#mainNav  .active{
 
 
 #portfolio .secTitle{
-	background:#9692e3;
+	background:#818181;
 }
 
 .filterNav {
@@ -1877,7 +1877,7 @@ h1
 /*Contact*/
 
 #contact .secTitle{
-	background:#ffbe00;
+	background:#818181;
 }
 
 

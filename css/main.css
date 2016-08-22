@@ -1,4 +1,4 @@
-reset*/
+/*reset*/
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p,a, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr,iframe {
 	margin: 0;
 	padding: 0;
@@ -1273,6 +1273,7 @@ float:left;
 	font-size: 35px;
 	margin-top: 40px;
 	margin-bottom:30px;
+	line-height: 20px;
 
 } 
 
@@ -2286,6 +2287,11 @@ h1
 	.takeiteasy_brief img{width:400px;}
 	.diamond img{width:500px;}
 	
+/*	.pic img{width:500px;}
+	.pic2 img{width:650px;}
+	.pic3 img{width:600px;} 
+	.pic4 img{width:400px;}*/
+	
 	
 		
 	.contactForm{margin-left:15px;}
@@ -2517,7 +2523,7 @@ h1
 	ul#category li a{margin-right:0;margin-bottom:12px;padding:10px 30px;}
 	#works .portfolio{margin-left:-5px;}
 	#works .item {width:230px;margin-right:0;}
-	/*.folioImg img{height:300px;}*/
+	.folioImg img{width:300px;height:300px;}
 	.takeiteasy_brief img{width:100px;}
 	.diamond img{width:300px;}
 	.pic3 img{width:500px;} 
@@ -2553,4 +2559,4 @@ h1
 
 
 /*End media queries*/
-/*-------------------------------------------------------------------------
+/*-------------------------------------------------------------------------*/

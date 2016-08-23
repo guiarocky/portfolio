@@ -1,11 +1,11 @@
 //------------------------------------- Waiting for the entire site to load ------------------------------------------------//
 
-jQuery(window).load(function() { 
-		jQuery("#loaderInner").fadeOut();
-		jQuery("#loader").delay(400).fadeOut("slow");
-		jQuery("#loaderInner p").removeClass("loading");
+// jQuery(window).load(function() { 
+// 		jQuery("#loaderInner").fadeOut();
+// 		jQuery("#loader").delay(400).fadeOut("slow");
+// 		jQuery("#loaderInner p").removeClass("loading");
 				
-});
+// });
 
 
 

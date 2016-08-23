@@ -1487,7 +1487,7 @@ float:left;
 .work2_photo img{
 	margin-bottom: 40px;
 	margin-top:40px;
-	width:30%;
+	width:20%;
 	align:center;
 	/*float: left;*/
 	/*opacity: 20%;*/
@@ -1498,7 +1498,7 @@ float:left;
 	/*margin-left: 300px;*/
 	margin-top: 5px;
 	margin-bottom: 30px;
-	width:25%;
+	width:15%;
 	align:center;
 	/*float: left;*/
 
@@ -2306,8 +2306,8 @@ h1
 	.cam img{width:800px;}
 	.cam1 img{width:600px;} 
 	.cam_explain img{width:600px;}
-	.work2_photo img{width:200px;}
-	.work2_photo2 img{width:150px;}
+	.work2_photo img{width:300px;}
+	.work2_photo2 img{width:250px;}
 	.keyframe img{width:400px;}
 	.experience img{margin-left: -30px;}
 	.pic img{width:500px;}

@@ -1,4 +1,4 @@
-reset*/
+/*reset*/
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p,a, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr,iframe {
 	margin: 0;
 	padding: 0;
@@ -1732,6 +1732,7 @@ float:left;
 	font-size: 24px;
 	opacity:1;
 	color:white;
+	margin:0;
 }
 
 .worktext h2{
@@ -1739,6 +1740,7 @@ float:left;
 	font-size: 12px;
 	opacity:1;
 	color:white;
+	margin:0;
 }
 
 .worktext h3{
@@ -1747,6 +1749,7 @@ float:left;
 	opacity:1;
 	color:white;
 	margin-top: 2px;
+	margin:0;
 }
 
 /*.worktext h1:hover{

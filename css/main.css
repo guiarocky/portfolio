@@ -2507,11 +2507,11 @@ h1
 	
 	
 	.lightbox_text p {width: auto;}
-	.lightbox_text h1 {width:400px;}
-	.lightbox_text h2 {width:400px;}
-	.lightbox_text h3 {width:400px;}
-	.lightbox_text h4 {width:350px;}
-	.lightbox_text h5 {width:400px;}
+	.lightbox_text h1 {width: auto;}
+	.lightbox_text h2 {width:auto;}
+	.lightbox_text h3 {width:auto;}
+	.lightbox_text h4 {width:auto;}
+	.lightbox_text h5 {width:auto;}
 	.lightbox_text_left h1 {width:350px;}
 	.lightbox_text_left h2 {width:400px;}
 	.discover img{width:400px;}

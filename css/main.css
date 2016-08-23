@@ -1,4 +1,4 @@
-/*reset*/
+reset*/
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p,a, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr,iframe {
 	margin: 0;
 	padding: 0;
@@ -1075,6 +1075,7 @@ ul#category {
     background:#FFFFFF;
     display: inline-block;
     position: relative;
+    padding: 0;
 }
 
 
@@ -1119,18 +1120,18 @@ ul#category li a:hover{
 
 
 #works .portfolio {
-	margin-left:-20px;
-	margin-right:-20px;
-    
+    margin-right: -20px;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
 }
 
 
 
 #works .item {
-	display:block;
-    float: left;
+	display: inline-block;
     margin-bottom: 40px;
-    margin-right: 21px;
+    margin-right: 20px;
     position: relative;
 	border-radius:3px;
 	-webkit-border-radius: 3px;
@@ -2304,7 +2305,6 @@ h1
 	
 
 	
-	#works .portfolio{margin-left:38px;}
 	.folioImg img{width:300px;height:300px;}
 	.takeiteasy_brief img{width:400px;}
 	.diamond img{width:500px;}
@@ -2405,7 +2405,8 @@ h1
 	.testimoniaContainer .testimonialContent div{width:400px;}
 	ul#category li{display:block;}
 	ul#category li a{margin-right:0;margin-bottom:12px;padding:10px 30px;}
-	#works .portfolio{margin-left:25px;}
+	#works .portfolio{margin-right: 0;}
+    #works .portfolio .item{margin-right: 0;}
 	.folioImg img {height: 300px;width: 300px;}
 	.contactForm {margin-left:14px}
 	.takeiteasy_brief img{width:400px;}
@@ -2461,7 +2462,7 @@ h1
 	.userProfile {margin-bottom: 100px;margin-top: 150px;}
 	.imgProfile:before, .imgProfile:after{border:none;}
 	.getBtn {left: 23.2%;top: 107.5%;}
-	.followBtn {right: 23.2%;top: -50.5%;}
+	.followBtn {top: -50.5%;}
 	
 	
 	.address p{line-height:35px;}
@@ -2505,7 +2506,7 @@ h1
 	.testimoniaContainer .testimonialContent div{width:230px;}
 	
 	
-	.lightbox_text p {width:350px;}
+	.lightbox_text p {width: auto;}
 	.lightbox_text h1 {width:400px;}
 	.lightbox_text h2 {width:400px;}
 	.lightbox_text h3 {width:400px;}
@@ -2543,7 +2544,7 @@ h1
 	
 	ul#category li{display:block;}
 	ul#category li a{margin-right:0;margin-bottom:12px;padding:10px 30px;}
-	#works .portfolio{margin-left:-5px;}
+    #works .portfolio{margin-right: 0;}
 	#works .item {width:230px;margin-right:0;}
 	.folioImg img{width:230px;height:230px;}
 	.takeiteasy_brief img{width:100px;}
@@ -2581,4 +2582,4 @@ h1
 
 
 /*End media queries*/
-/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------

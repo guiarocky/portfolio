@@ -1107,6 +1107,7 @@ ul#category li a {
 	-o-border-radius: 3px;
 	background:#ffffff;
 	border:1px solid #2d2d2d;
+	text-decoration: none;
 }
 
 ul#category li a:hover{

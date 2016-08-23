@@ -1334,11 +1334,6 @@ float:left;
 
 }
 */
-.box-wrapper {
-  width: 90%;
-  max-width: 950px;
-  margin: 0 auto;
-}
 
 .box {
   float: left;
@@ -1380,6 +1375,7 @@ float:left;
   font-size: 18px;
   width:100%;
 }
+
 
 
 

@@ -406,8 +406,8 @@ nav#mainNav  .active{
     position: relative;
     display: flex;
     align-items: center;
-    width: 55%;
-    margin-left: 45%;
+    width: 50%;
+    margin-left: 50%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -479,7 +479,7 @@ nav#mainNav  .active{
 
 .experience-item:nth-child(2n+2) {
     margin-left: 0;
-    width: 45%;
+    width: 50%;
     text-align: right;
 }
 

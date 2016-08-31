@@ -2725,7 +2725,6 @@ h1
 	.deliver img{width:400px}
 	.define img{width:400px}
 	.develop img{width:400px}
-	.doublediamond img{width:600px;}
 	.cam img{width:700px;}
 	.cam1 img{width:500px;} 
 	.cam_explain img{width:500px;}
@@ -2745,9 +2744,12 @@ h1
 	.pic10 img{width:500px;}
 	.pic11 img{width:500px;} 
 	.pic12 img{width:200px;}
-	.doublediamond img{width:100%;}
 
-
+    .doublediamond {
+        width: auto;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
 	
 	
 	ul#category li{display:block;}

@@ -461,7 +461,7 @@ nav#mainNav  .active{
 .experience-item-title {
     flex: 0 0 auto;
     padding-right: 15px;
-    font-size: 55px;
+    font-size: 54px;
     font-weight: normal;
     line-height: 1;
 }
@@ -2533,7 +2533,43 @@ h1
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
 	
-	
+	/* ----- Experience timeline ----- */
+
+    .experience-item,
+    .experience-item:nth-child(2n+2) {
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .experience-item:nth-child(2n+2):before {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2):after {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-title {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list {
+        order: initial;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li:before {
+        left: 0;
+        right: auto;
+    }
+
+    /* --- End Experience timeline --- */
 	
 }
 
@@ -2687,8 +2723,62 @@ h1
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
 	.bottom p{font-size:12px;}
-	
-	
+
+    /* ----- Experience timeline ----- */
+
+    .experience-item {
+        flex-wrap: wrap;
+        flex: 1 1 100%;
+    }
+
+    .experience-item:before {
+        top: 47px;
+    }
+
+    .experience-item:first-child:after {
+        top: 47px;
+    }
+
+    .experience-item:last-child:after {
+        bottom: calc(100% - 47px);
+    }
+
+    .experience-item,
+    .experience-item:nth-child(2n+2) {
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .experience-item:nth-child(2n+2):before {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2):after {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-title {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list {
+        order: initial;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li:before {
+        left: 0;
+        right: auto;
+    }
+
+    /* --- End Experience timeline --- */	
+
 }
 
 

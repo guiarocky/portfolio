@@ -648,7 +648,7 @@ nav#mainNav  .active{
 }
 
 #about .secTitle{
-	background:#9ad8ce;
+	background:#818181;
 }
 
 
@@ -1228,7 +1228,7 @@ nav#mainNav  .active{
 
 
 #portfolio .secTitle{
-	background:#818181;
+	background:#9ad8ce;
 }
 
 .filterNav {
@@ -1440,7 +1440,7 @@ float:left;
 	font-size: 35px;
 	margin-top: 40px;
 	margin-bottom:30px;
-	line-height: 20px;
+	line-height: 40px;
 
 } 
 
@@ -1607,7 +1607,7 @@ float:left;
 .lightbox_subtitle{
 	text-align: center;
 	font-size: 25px;
-	line-height:20px;
+	line-height:30px;
 	margin-bottom:30px;
 }
 
@@ -2757,11 +2757,11 @@ h1
     #works .portfolio{margin-right: 0;}
 	#works .item {width:230px;margin-right:0;}
 	.folioImg img{width:230px;height:230px;}
-	.takeiteasy_brief img{width:100px;}
+	.takeiteasy_brief img{width:300px;}
 	.diamond img{width:300px;}
 	.pic3 img{width:500px;} 
 	.pic img{width:300px;}
-	.pic4 img{width:200px;}
+	.pic4 img{width:300px;}
 	
 	
 

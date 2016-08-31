@@ -945,9 +945,16 @@ nav#mainNav  .active{
 	margin:auto;
 	width:80%;
 	margin-top: 50px;
-	margin-bottom: 170px;
+	margin-bottom: 100px;
 	opacity:0.9;
+    text-align: center;
 } 
+
+.worklogo img {
+    width: auto;
+    height: 80px;
+    padding: 10px;
+}
 
 /*End about section*/
 

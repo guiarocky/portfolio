@@ -396,18 +396,176 @@ nav#mainNav  .active{
     font-size: 14px;
 }
 
+/* ----- Experience timeline ----- */
 
-.experience{
-	display: block;
-	width: 95%;
-	position:center;
-	margin: 0 auto;
-	margin-top: 100px;
-	margin-left: 70px;
-	margin-bottom: 70px;
-	/*background-position: center top;*/
+.experience {
+    margin: 50px 0;
 }
 
+.experience-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 55%;
+    margin-left: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* timeline dot */
+.experience-item:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    margin-left: -4px;
+    background-color: #000;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+/* timeline track */
+.experience-item:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: -1px;
+    width: 2px;
+    background-color: #999;
+}
+
+.experience-item:first-child:after {
+    top: 50%;
+}
+
+.experience-item:last-child:after {
+    bottom: 50%;
+}
+
+.experience-item-title {
+    flex: 0 0 auto;
+    padding-right: 15px;
+    font-family: "EuropeUnderground-Light";
+    font-size: 54px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.experience-item-list {
+    flex: 1 1 auto;
+    vertical-align: top;
+}
+
+.experience-item-list li {
+    position: relative;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+.experience-item-list li:before {
+    content: "•";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.experience-item:nth-child(2n+2) {
+    margin-left: 0;
+    width: 45%;
+    text-align: right;
+}
+
+.experience-item:nth-child(2n+2):before {
+    left: 100%;
+}
+
+.experience-item:nth-child(2n+2):after {
+    left: 100%;
+}
+
+.experience-item:nth-child(2n+2) .experience-item-title {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+
+.experience-item:nth-child(2n+2) .experience-item-list {
+    order: -1;
+}
+
+.experience-item:nth-child(2n+2) .experience-item-list li {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.experience-item:nth-child(2n+2) .experience-item-list li:before {
+    left: auto;
+    right: 0;
+}
+
+/* --- End Experience timeline --- */
+
+/* ----- Education ----- */
+
+.education {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 30px;
+}
+
+.education li {
+    display: inline-block;
+    width: 33%;
+    padding: 0 30px;
+    font-size: 13px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.education-logo img {
+    width: auto;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.education-text {
+    position: relative;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.education-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.education-text h1 {
+    font-family: "EuropeUnderground-Light";
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.education-text h2 {
+    padding-bottom: 5px;
+    font-family: "ProximaNova-Regular";
+    font-size: 16px;
+    color: #000;
+}
+/* --- End Education --- */
 
 /*.experience_title{
 	margin-top: 110px;
@@ -833,9 +991,16 @@ nav#mainNav  .active{
 	margin:auto;
 	width:80%;
 	margin-top: 50px;
-	margin-bottom: 170px;
+	margin-bottom: 100px;
 	opacity:0.9;
+    text-align: center;
 } 
+
+.worklogo img {
+    width: auto;
+    height: 80px;
+    padding: 10px;
+}
 
 /*End about section*/
 
@@ -2421,8 +2586,53 @@ h1
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
 	
+	/* ----- Experience timeline ----- */
+
+    .experience-item,
+    .experience-item:nth-child(2n+2) {
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .experience-item:nth-child(2n+2):before {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2):after {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-title {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list {
+        order: initial;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li:before {
+        left: 0;
+        right: auto;
+    }
+
+    /* --- End Experience timeline --- */
 	
-	
+    /* ----- Education ----- */
+    
+    .education li {
+        width: 50%;
+    }
+
+    /* --- End Education --- */
+
+
 }
 
 
@@ -2575,8 +2785,70 @@ h1
 	.share, .bottom ul, .bottom p{text-align:center;}
 	.bottom ul{margin-top:5px;}
 	.bottom p{font-size:12px;}
-	
-	
+
+    /* ----- Experience timeline ----- */
+
+    .experience-item {
+        flex-wrap: wrap;
+        flex: 1 1 100%;
+    }
+
+    .experience-item:before {
+        top: 42px;
+    }
+
+    .experience-item:first-child:after {
+        top: 42px;
+    }
+
+    .experience-item:last-child:after {
+        bottom: calc(100% - 42px);
+    }
+
+    .experience-item,
+    .experience-item:nth-child(2n+2) {
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .experience-item:nth-child(2n+2):before {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2):after {
+        left: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-title {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list {
+        order: initial;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .experience-item:nth-child(2n+2) .experience-item-list li:before {
+        left: 0;
+        right: auto;
+    }
+
+    /* --- End Experience timeline --- */	
+
+    /* ----- Education ----- */
+
+    .education li {
+        width: 100%;
+    }
+
+    /* ----- End Education ----- */
+
 }
 
 

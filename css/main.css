@@ -258,6 +258,12 @@ nav#mainNav  .active{
 	
 }
 
+.top_ico {
+    margin-top: 150px;
+    
+}
+
+
 .teaserTitle h1 {
     /*color: #ffffff;*/
     display: inline-block;
@@ -1249,11 +1255,11 @@ ul#category {
 ul#category li {
     display: inline-block;
     font-size: 12px;
-	border-radius:3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
+	border-radius:1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
 
 	
 	
@@ -1267,18 +1273,18 @@ ul#category li a {
     letter-spacing: 1px;
     text-transform:uppercase;
     padding: 12px 20px;
-	border-radius:3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
+	border-radius:1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
 	background:#ffffff;
-	border:1px solid #2d2d2d;
+	border:0.7px solid #c1c1c1;
 	text-decoration: none;
 }
 
 ul#category li a:hover{
-	background:#2d2d2d;
+	background:#7f7f7f;
 	color:#ffffff;
 }
 
@@ -1959,7 +1965,7 @@ float:left;
 
 #category .current a {
     color: #ffffff;
-	background:#2d2d2d;
+	background:#7f7f7f;
 }
 
 
@@ -2123,7 +2129,7 @@ h1
 
 
 .contactForm input.submit {
-    background: #2D2D2D;
+    background: #7f7f7f;
     border: 15px solid #FFFFFF;
     color: #FFFFFF;
     cursor: pointer;
@@ -2143,7 +2149,7 @@ h1
 
 
 .contactForm input.submit:hover{
-	color:#666666;
+	background:#2d2d2d;
 }
 
 

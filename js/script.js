@@ -18,7 +18,10 @@ $(document).ready(function(){
 //--------------------------------- Initialize galleria --------------------------------//
 
 function initGalleria() {
-    Galleria.run('.galleria');
+	var visibleGalleria = $('.galleria:visible');
+	if (visibleGalleria.length !== 0) {
+		Galleria.run(visibleGalleria);
+	}
 }
 
 Galleria.loadTheme('js/galleria.classic.js');

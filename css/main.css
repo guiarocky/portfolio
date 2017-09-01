@@ -302,7 +302,7 @@ nav#mainNav  .active{
 
 .teaserTitle h2{
 	margin-top: 5px;
-	font-size:20px;
+	font-size:16px;
 	/*text-transform:uppercase;*/
 	letter-spacing:1px;
 	
@@ -1781,6 +1781,17 @@ float:left;
     margin:auto;
 }
 
+.pic5-2 img{
+    width:35%;
+    /*margin-right: 10px;*/
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align:center;
+     display:block;
+    margin:0 auto;
+
+}
+
 .pic6 img{
 	width:10%;
 	/*margin-right: 10px;*/
@@ -1819,7 +1830,6 @@ float:left;
 	/*margin-right: 10px;*/
 	margin-top: -30px;
 	margin-bottom: 10px;
-	align:center;
 }
 
 .pic11 img{
@@ -2483,6 +2493,7 @@ h1
 	.pic3 img{width:600px;}
 	.pic4 img{width:400px;}
 	.pic5 img{width:350px;} 
+    .pic5-2 img{width:350px;}
 	.pic6 img{width:200px;}
 	.pic7 img{width:500px;}
 	.pic8 img{width:300px;} 
@@ -2547,6 +2558,7 @@ h1
 	.lightbox_text h5 {width:400px;}
 	.lightbox_text_left h1 {width:350px;}
 	.lightbox_text_left h2 {width:400px;}
+    .lightbox_subtitle {width:400px;}
 	.discover img{width:400px;}
 	.deliver img{width:400px}
 	.define img{width:400px}
@@ -2563,7 +2575,8 @@ h1
 	.pic2 img{width:600px;} 
 	.pic3 img{width:500px;}
 	.pic4 img{width:300px;}
-	.pic5 img{width:250px;} 
+	.pic5 img{width:250px;}
+    .pic5-2 img{width:250px;} 
 	.pic6 img{width:100px;}
 	.pic7 img{width:400px;}
 	.pic8 img{width:200px;} 
@@ -2754,6 +2767,7 @@ h1
 	.lightbox_text h3 {width:auto;}
 	.lightbox_text h4 {width:auto;}
 	.lightbox_text h5 {width:auto;}
+    .lightbox_subtitle {width:400px;}
 	.lightbox_text_left h1 {width:350px;}
 	.lightbox_text_left h2 {width:400px;}
 	.takeiteasy_brief img {width:90%;}
@@ -2773,6 +2787,7 @@ h1
 	.pic3 img{width:500px;}
 	.pic4 img{width:300px;}
 	.pic5 img{width:250px;} 
+    .pic5-2 img{width:250px;}
 	.pic6 img{width:100px;}
 	.pic7 img{width:400px;}
 	.pic8 img{width:200px;} 

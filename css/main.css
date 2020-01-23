@@ -2010,7 +2010,7 @@ float:left;
 	margin:auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	width:70%;
+	width:100%;
 } 
 
 
@@ -2528,7 +2528,7 @@ h1
 	
 	.folioImg img{width:300px;height:300px;}
 	.takeiteasy_brief img{width:400px;}
-	.diamond img{width:500px;}
+	.diamond img{width:600px;}
 	
 /*	.pic img{width:500px;}
 	.pic2 img{width:650px;}

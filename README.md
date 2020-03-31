@@ -1,3 +1,3 @@
 # portfolio
 rockyfong portfolio <p>
-this is my first time
+Welcome to my portfolio website

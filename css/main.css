@@ -2563,6 +2563,7 @@ h1
 	.pic11 img{width:600px;} 
 	.pic12 img{width:300px;}
     .pic13 img{width:300px;}
+
 	
 	.em, .ed{width:259px;}
 	.emIco, .edIco{left:-8%;}
@@ -2606,6 +2607,9 @@ h1
 	#teaser, #teaser .overlay{height:530px;}
 	.captions p{font-family: 'ProximaNova-Light', Arial,sans-serif;}
 	.teaserTitle{margin-top:250px;}
+	.top_ico {margin-top: 70px;}
+	.dropbox_subtitle p{width:400px;}
+	.dropbox_text p{width:400px;}
 	.teaserTitle h1:before{margin-left:-265px;width:50px;top:27px;}
 	.teaserTitle h1:after{margin-right:-265px;width:50px;top:27px;}
 	.teaserTitle h1{font-size:36px;}
@@ -2646,6 +2650,7 @@ h1
 	.pic11 img{width:500px;} 
 	.pic12 img{width:200px;}
     .pic13 img{width:200px;}
+    .icon img{width:70px;}
 
 	
 	.followBtn {right: 0%;}
@@ -2822,6 +2827,7 @@ h1
 	.testimoniaContainer .testimonialContent div{width:230px;}
 	
 	
+	.dropbox_subtitle p {width: auto;} 
 	.lightbox_text p {width: auto;}
 	.lightbox_text h1 {width: auto;}
 	.lightbox_text h2 {width:auto;}
@@ -2859,6 +2865,7 @@ h1
     .pic13 img{width:200px;}
     .pic14 img{width:200px;}
     .pic15 img{width:200px;}
+    .icon img{width:200px;}
 
     .doublediamond {
         width: auto;

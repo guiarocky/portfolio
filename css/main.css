@@ -2828,6 +2828,9 @@ h1
 	
 	
 	.dropbox_subtitle p {width: auto;} 
+	.top_ico {margin-top: 70px;}
+	.dropbox_subtitle p{width:400px;}
+	.dropbox_text p{width:400px;}
 	.lightbox_text p {width: auto;}
 	.lightbox_text h1 {width: auto;}
 	.lightbox_text h2 {width:auto;}
@@ -2865,7 +2868,7 @@ h1
     .pic13 img{width:200px;}
     .pic14 img{width:200px;}
     .pic15 img{width:200px;}
-    .icon img{width:200px;}
+    .icon img{width:100px;}
 
     .doublediamond {
         width: auto;

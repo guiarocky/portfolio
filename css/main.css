@@ -1637,6 +1637,25 @@ float:left;
 	/*margin-bottom:30px;*/
 }
 
+.dropbox_subtitle{
+    margin: 0 auto;
+    margin-bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+    width:700px;
+
+}
+
+.dropbox_text{
+    margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	line-height:20px;
+    width:700px;
+
+}
+
+
 .lightbox_subtitle{
     margin: 0 auto;
 	text-align: center;
@@ -1753,6 +1772,14 @@ float:left;
 	margin-top: 30px;
 	margin-bottom: 40px;
 	align:center;
+} 
+
+.icon img{
+	width:7%;
+	/*margin-right: 10px;*/
+	margin-top: 30px;
+	margin-bottom: 40px;
+	align:right;
 } 
 
 .pic img{

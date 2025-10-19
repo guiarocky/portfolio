@@ -32,7 +32,7 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, hg
 body{
 	padding:0;
 	margin:0;
-	font-family:'ProximaNova-Light', Arial,sans-serif;
+	font-family:'Montserrat-Light', Arial,sans-serif;
 	color:#8A8A8A;
 	overflow-x:hidden;
 	font-size:13px;
@@ -57,18 +57,18 @@ a, .contactForm input.submit, #toTop i{
  .textWidget p, .servDesc p, .testimoniaContainer blockquote, .testimoniaContainer h3, 
  ul#category li, .tweet p, .tweets .tweet_list, .bottom p , .bottom ul , .contactForm [type="text"], .contactForm textarea ,
  .contactForm textarea {
-	font-family: 'ProximaNova-Light', Arial,sans-serif;;
+	font-family: 'Montserrat-Light', Arial,sans-serif;;
 }
 
 
 .workDesc h3,.address p, .info , .emDesc h6, .edDesc h6,nav#mainNav li{
-  font-family: 'ProximaNova-Light', Arial,sans-serif;
+  font-family: 'Montserrat-Light', Arial,sans-serif;
 }
 
 
 .teaserTitle h1, .secTitle h1, .innerTitle h1, .subTitle h1, .skillbarTitle, .textWidget h1, .emDesc h3, .edDesc h3, .inputBox label, .contactForm input.submit, .tweet h3, .tweets .tweet_list a,
 .bottom p span,  .titleInner h1 ,#loaderInner h1,.worktext h1,.worktext h2,.lightbox_title,.lightbox_text,.lightbox_subtitle,.lightbox_subtitle2  {
-  font-family: 'ProximaNova-Light', Arial,sans-serif;
+  font-family: 'Montserrat-Light', Arial,sans-serif;
 }
 
 
@@ -130,7 +130,7 @@ p{
 	font-size:12px;
 	text-align:center;
 	margin-top:2px;
-	font-family: 'ProximaNova-Light' , Arial,sans-serif;
+	font-family: 'Montserrat-Light' , Arial,sans-serif;
 }
 
 
@@ -567,7 +567,7 @@ nav#mainNav  .active{
 
 .education-text h2 {
     padding-bottom: 5px;
-    font-family: "ProximaNova-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 16px;
     color: #000;
 }
@@ -739,7 +739,7 @@ nav#mainNav  .active{
 	display:block;
 	font-size:14px;
 	margin:0 -13px;
-	font-family: 'ProximaNova-Light', Arial,sans-serif;
+	font-family: 'Montserrat-Light', Arial,sans-serif;
 	
 }
 
@@ -1105,7 +1105,7 @@ nav#mainNav  .active{
 }
 
 .cta p{
-	font-family:'ProximaNova-Light', Arial,sans-serif;
+	font-family:'Montserrat-Light', Arial,sans-serif;
 	font-size:28px;
 	color:#2d2d2d;
 	line-height:40px;
@@ -1356,7 +1356,7 @@ ul#category li a:hover{
 }
 
 .workDesc h3 span{
-	font-family: 'ProximaNova-Light', Arial,sans-serif;
+	font-family: 'Montserrat-Light', Arial,sans-serif;
 	font-size:12px;
 }
 
@@ -2517,7 +2517,7 @@ h1
 	.holder960{width:700px;}
 	.testimoniaContainer,#teaser {background-attachment: scroll;background-position:top center !important;background-size: cover;}
 	.teaserTitle{margin-top:350px;}
-	.captions p{font-family: 'ProximaNova-Light', Arial,sans-serif;}
+	.captions p{font-family: 'Montserrat-Light', Arial,sans-serif;}
 	.getBtn {left: 4.7%;}
 	.followBtn{right:1%;}
 	
@@ -2605,7 +2605,7 @@ h1
 	nav#mainNav li a {padding: 25px 12px;}
 	.secTitle{margin-top: -2px;}
 	#teaser, #teaser .overlay{height:530px;}
-	.captions p{font-family: 'ProximaNova-Light', Arial,sans-serif;}
+	.captions p{font-family: 'Montserrat-Light', Arial,sans-serif;}
 	.teaserTitle{margin-top:250px;}
 	.top_ico {margin-top: 70px;}
 	.dropbox_subtitle p{width:400px;}
@@ -2776,7 +2776,7 @@ h1
 	#teaser, #teaser .overlay{height:500px;}
 	.teaserTitle h1:before{margin-left:-160px;width:35px;top:52px;}
 	.teaserTitle h1:after{margin-right:-160px;width:35px;top:52px;}
-	.captions p{font-family: 'ProximaNova-Light', Arial,sans-serif;}
+	.captions p{font-family: 'Montserrat-Light', Arial,sans-serif;}
 	
 	
 	

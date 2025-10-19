@@ -151,6 +151,24 @@
 }
 
 
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../font/Montserrat-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../font/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 /*@font-face {
     font-family: 'robotoblack';
